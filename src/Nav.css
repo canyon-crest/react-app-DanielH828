@@ -1,0 +1,26 @@
+div{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+}
+div ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 3rem;
+    flex-wrap: wrap;
+    background-color: rgba(196, 204, 229, 0.947);
+}
+div ul li{
+    font-size: large;
+    color:rgb(255, 255, 255);
+    padding:1rem 2rem 1rem 2rem;
+}
+
+div ul li:hover{
+    background-color:rgb(164, 188, 229);
+    color:rgb(83, 97, 161);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-weight: 200;
+}
