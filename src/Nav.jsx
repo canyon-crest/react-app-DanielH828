@@ -5,7 +5,7 @@ function Nav(){
         <div>
             <ul>
                 <li>Home</li>
-                <li>About</li>
+                <li href='/Shop.jsx'>Shop</li>
                 <li>Contact</li>
             </ul>
         </div>
