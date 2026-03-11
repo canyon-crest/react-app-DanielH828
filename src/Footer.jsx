@@ -1,10 +1,10 @@
-import './Nav.css'
+import './Footer.css'
 
-function Nav(){
+function Footer(){
     return (
         <div>
             <h4>&copy;Daniel He 2026</h4>
         </div>
     )
 }
-export default Nav
+export default Footer
