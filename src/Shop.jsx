@@ -10,8 +10,8 @@ function Shop({myname,description, cost}) {
         <div className='myCard'>
             <h2>{myname}</h2> 
             <p>Description: {description} Cost: ${cost}</p>
-            <button onClick={() => setCount(count+1)}>Add {myname} to cart</button>
-            <button onClick={() => setCount(0)}>Reset</button>
+            <button className='ShopButton'onClick={() => setCount(count+1)}>Add {myname} to cart</button>
+            <button className='ShopButton'onClick={() => setCount(0)}>Reset</button>
             <p>Total {myname}: {count}</p>
             <p>Total Cost of item: {count*cost}</p>
         </div>
