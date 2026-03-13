@@ -7,7 +7,8 @@ function Nav( {setPage} ){
             <ul>
                 <li onClick={()=>setPage("Home")}>Home</li>
                 <li onClick={()=>setPage("Shop")}>Shop</li> 
-                <li onClick={()=>setPage("contact")}>Contact</li>
+                <li onClick={()=>setPage("Counter")}>Counter</li>
+                <li onClick={()=>setPage("About")}>About</li>
             </ul>
         </div>
     )
