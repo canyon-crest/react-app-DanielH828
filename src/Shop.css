@@ -1,0 +1,18 @@
+.myCard {
+    display: flex;
+    justify-content:space-between;
+}
+
+.myCard .Cost {
+    margin: 5px;
+}
+
+.ShopButton {
+    font-weight:bolder;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+.ShopButton:hover {
+    background-color:rgb(230, 240, 255);
+    color:rgb(0, 0, 0);
+}
