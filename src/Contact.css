@@ -1,0 +1,27 @@
+.contact-container {
+    width:600px;
+    margin:40px auto;
+    padding:40px;
+    border-radius:6px;
+    color:black;
+}
+h2{
+    color:black;
+}
+form{
+    display:flex;
+    flex-direction:column;
+}
+input, textarea {
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+}
+.message-card{
+    background:white;
+    color:black;
+    padding:15px;
+    margin-top:10px;
+}

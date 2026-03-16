@@ -1,7 +1,56 @@
-*{
-    text-align: center;
+.home {
+    text-align:center;
+    padding:40px;
 }
-.Counter {
-    color: black;
-    font-weight:50;
+
+.hero {
+    background:linear-gradient(135deg, #5f6b8a,#8f96a3);
+    color:white;
+    padding:80px 20px;
+    border-radius: 10px;
+}
+
+.hero h1{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.hero-buttons button{
+    margin:10px;
+    padding:12px 20px;
+    font-size: 16px;
+    border:none;
+    border-radius: 6px;
+    cursor:pointer;
+    background:white;
+}
+
+.hero-buttons button:hover {
+    background: #ddd;
+}
+
+.features {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top:60px;
+}
+
+.feature-card {
+    background:white;
+    padding:25px;
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba (0,0,0,0.15);
+}
+.feature-card h2{
+    color:black;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
 }
