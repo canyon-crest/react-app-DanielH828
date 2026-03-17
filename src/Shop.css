@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 12px;
+    background-color: white;
 }
 
 .card-header h2 {
@@ -27,7 +28,7 @@
 }
 
 .price-tag {
-    background: #e8f5e9;
+    background:white;
     color: #2e7d32;
     padding: 4px 10px;
     border-radius: 20px;
