@@ -5,6 +5,8 @@ import Shop from './Shop.jsx'
 import Footer from './Footer.jsx'
 import Home from './Home.jsx'
 import Contact from './Contact.jsx'
+
+
 function App() {
   const [page, setPage] = useState("Home");
   return (
@@ -21,3 +23,4 @@ function App() {
 }
 
 export default App
+
